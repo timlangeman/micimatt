@@ -68,6 +68,124 @@ div.site-inner {
 .site-inner, .wrap {
   max-width: 1000px
 }
+
+// Jquery Tooltip  
+.ui-tooltip-content::after, .ui-tooltip-content::before {  
+	content: "";  
+	position: absolute;  
+	border-style: solid;  
+	display: block;  
+	left: 90px;  
+}  
+.ui-tooltip-content::before {  
+	bottom: -10px;  
+	border-color: #AAA transparent;  
+	border-width: 10px 10px 0;  
+}  
+.ui-tooltip-content::after {  
+	bottom: -7px;  
+	border-color: white transparent;  
+	border-width: 10px 10px 0;  
+}  
+
+.ui-tooltip {
+	font-size: 85%;
+
+}
+
+span.song_title {
+	color: red;
+	font-size: 138%;
+	font-family: Helvettica;
+}
+
+div.site-container {
+  background-color: #f7f7f9;
+}
+
+span.wa-woo {
+  padding-left: 0px;
+  color: #56e81c; !important;
+}
+
+.content {
+    float: left;
+    width: 800px;
+}
+
+div.power-centers {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+div.verse {
+	padding-bottom: 15px;
+}
+
+div.verse div.chorus {
+  margin: 2% 10%;
+}
+
+span.word-text {
+	color: #999;
+}
+
+#lyrics {
+	padding-top: 20px;
+	font-size: 165%;
+	font-weight: 800;
+	color: #56e81c;
+	font-family: Helvettica;
+}
+.lyrics-by {
+	padding-left: 10px;
+	font-size: 65%;
+}
+
+ul.instructions {
+	margin-left: 50px;
+	margin-bottom: 20px !important;
+}
+
+#instructions {
+	font-size: 110%;
+	background-color: yellow;
+	margin-bottom: 40px !important;
+	padding-left: 10px;
+}
+
+h2.practice {
+	font-size: 200%;
+	font-weight: 800;
+}
+
+ul.singers {
+	list-style-type: none;
+	margin-left: 50px;
+	margin-bottom: 60px;
+}
+
+h1#credits {
+	padding-bottom: 20px;
+}
+
+ul.credits {
+	list-style-type: none;
+	margin-left: 50px;
+	margin-bottom: 40px;
+}
+
+span.book {
+	margin-left: 30px;
+	color: #999;
+}
+
+div.site-inner {
+  border: 1px solid rgb(238, 238, 238);
+}
+.site-inner, .wrap {
+  max-width: 1000px
+}
 article.quote {
   margin: 30px 0px 0px 50px;
 }
@@ -98,7 +216,7 @@ div#instructions {
 	background-color: #eee;
 	width: 75%;
 	margin: 50px 0 20px 20px;
-	padding: 20px 20px 0px 20px;
+	
 }
 div#instructions ul {
 	margin-top: -10px;
@@ -111,6 +229,11 @@ div#instructions p#change_mind {
 	text-align: right;
 	margin: 15px 0px -10px 0px;
 }
+
+p#instructions {
+		padding: 10px 25px !important;
+}
+
 div.collapsed_placeholder {
   background-color: #efefef;
   color: #999;
@@ -264,6 +387,20 @@ div#embedded_markup h4, div#non_embedded_markup h4 {
 h4 {
   font-size: 20px;
 }
+ul.terms {
+  color:red;
+  font-size: 150%;
+  margin-bottom: 50px;
+}
+h1 {
+  font-size: 200%;
+}
+
+iframe.podast {
+  margin-left: 100px;
+}
+
+
 </style>
 <link rel="stylesheet" type="text/css" href="//www.openpolitics.com/wp-content/themes/genesis-child/print.css" media="print">
 <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
