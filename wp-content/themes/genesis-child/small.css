@@ -115,6 +115,14 @@ blockquote::before {
 	padding: 5px 5px;
 }
 
+.video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 260px;
+}
+
+
 .alignright {
 	width: 100%;   /* That's strange: align-right = left!  Todo: refactor name in later revision */ 
     text-align: left;

@@ -577,6 +577,10 @@ p.tags {
     text-indent: -3em;
 }
 
+.video {
+	height: 555px;
+}
+
 
 /** Ted Nelson Article **/
 

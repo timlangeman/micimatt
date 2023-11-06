@@ -201,7 +201,7 @@ div.site-inner {
   max-width: 1000px
 }
 article.quote {
-   30px 50px 0 30px;
+   30px 50px 0 50px;
 }
 .panel-default {
   border: 0px solid #fff;
@@ -290,9 +290,18 @@ a#neotext_github {
 iframe {
   border: 0px;
 }
-iframe.xx_video {
-  width: 100%;
-  border: 2px solid #999;
+#youtube_video {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5px;
+}
+.video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 440px;
+    
 }
 iframe#bret_victor_video{
   margin: 5px 0px;
@@ -470,10 +479,8 @@ iframe.podast {
     M<span class="word-text">ilitary</span> | I<span class="word-text">ndustrial</span> | C<span class="word-text">ongressional</span> | I<span class="word-text">ntelligence</span> | M<span class="word-text">edia</span> | A<span class="word-text">cademia</span> | T<span class="word-text">hink</span> T<span class="word-text">ank</span>
   </div>
 
-<div id="video_top">
-  <iframe width="560" height="315" 
-	src="https://www.youtube.com/embed/k0oL43NDv6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-  </iframe>
+<div id="video-container"><!--youtube_video-->
+  <iframe class="video" src="https://www.youtube.com/embed/k0oL43NDv6I" title="YouTube video player" autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share allowfullscreen></iframe>
 </div>
 (This is a draft video)
 
