@@ -141,7 +141,7 @@ blockquote h1, blockquote h2, blockquote h3, blockquote h4, blockquote h5, block
 }
 
 blockquote h3, blockquote h4 {
-	color: #222;
+	color: #ccc;
 	font-weight: 800;
 }
 blockquote h4 {
@@ -273,10 +273,10 @@ div.expand_label {
 }
 
 blockquote {
-	margin: 15px 40px 0px 40px;
+	margin: 15px 40px 0px 41px;
 	border-left: 7px solid #ccc;
 	padding: 0 60px 0 40px;
-	color: #555;
+	color: #ccc;
 	font-weight: 100;
 }
 
@@ -298,8 +298,9 @@ span.highlight {
 }
 blockquote strong, blockquote b  {
 	font-weight: 800;
-	color: #000;
+	/* color: #000;
 	background-color: #f8ff75;
+	*/
 	padding: 0px 2px;
 }
 
@@ -375,11 +376,11 @@ a.read-more {
 
 article.quote {
 	margin: 30px 50px 0 30px;
-	max-width: 850px;
+	/* max-width: 850px; */
 }
 article.transcript {
 	margin: 30px 50px 0 90px;
-	max-width: 900px;
+	/* max-width: 900px; */
 }
 
 article.transcript ul {
@@ -578,7 +579,7 @@ p.tags {
 }
 
 .video {
-	height: 555px;
+	height: 675px;
 }
 
 
@@ -668,6 +669,21 @@ blockquote ol.disc li {
 div.show_hide_div {
 	display: none;
 }
+
+.highlight_orange {
+	color: orange
+}
+
+.highlight_color {
+	color: yellow;
+}
+
+img#merchants_of_death {
+	width: 45%;
+	margin-left: 10%;
+}
+
+
 /*********************************************************************************************************/
 @media only screen and (max-width: 500px) {
 
