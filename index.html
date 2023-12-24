@@ -74,9 +74,10 @@ body {
 
 div.site-container {
   background-color: #000000;
-  width: 100%;
   max-width: 1600px;  
-  min-width: 655px;
+  /* min-width: 655px; 
+  width: 100%;
+  */
   margin-left: auto;
   margin-right: auto;
 }
@@ -237,9 +238,6 @@ span.book {
   /* max-width: 1000px */
   width: 100%;
 }
-<!-- article.quote {
-   30px 50px 0 50px;
-} -->
 
 .panel-default {
   /* border: 0px solid #fff; */
@@ -338,7 +336,7 @@ iframe {
 .video {
     width: 100%;
     aspect-ration: 16 / 9;
-    height: 40vw;
+    height: 45vw;
     max-height: 750px;
 }
 
@@ -465,6 +463,45 @@ h2 {
 
 iframe.podast {
   margin-left: 100px;
+}
+
+
+@media (max-width: 385px) {
+    div.site-container {
+        width: 375 important;
+    }
+}
+
+@media (max-width: 435px) {
+    div.site-container {
+        width: 435px important;
+    }
+}
+
+
+@media (max-width: 550px) {
+    div.site-container {
+        width: 550px; important;
+    }
+}
+
+
+@media (max-width: 600px) {
+    div.site-container {
+        width: 100% important;
+    }
+}
+
+@media (max-width: 800px) {
+    div.site-container {
+        width: 750px important;
+    }
+}
+
+@media (max-width: 800px) {
+    div.site-container {
+        width: 750px important;
+    }
 }
 
 
