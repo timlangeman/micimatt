@@ -1,0 +1,25 @@
+
+@page { margin: 1.0cm; }
+body  { margin: 1.25cm; }
+
+a[href]:after {
+  content:"" !important;
+}
+
+div.site-container {
+  background-color: #fff;
+}
+div.site-inner{
+  0px solid #fff;
+}
+h3 {
+  color: red;
+}
+p {
+  font-size: 16px;
+}
+
+
+div.title-area, div.extra, nav.nav-primary, div#instructions {
+  display: none;
+}
