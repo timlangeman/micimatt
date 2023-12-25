@@ -375,9 +375,10 @@ a.read-more {
  }
 
 article.quote {
-	margin: 30px 50px 0 30px;
+	margin: 20px 50px 0 30px;
 	/* max-width: 850px; */
 }
+
 article.transcript {
 	margin: 30px 50px 0 90px;
 	/* max-width: 900px; */
