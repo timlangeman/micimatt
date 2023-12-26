@@ -188,7 +188,7 @@ div.power-centers {
 }
 
 #micimatt-letters {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 div.chorus, .verse, div#peace-action-network {
@@ -224,6 +224,7 @@ span.word-text {
 
 #download_for_free {
   float: right;
+  padding: 35px;
 }
 
 .nav_select {
@@ -396,6 +397,14 @@ iframe {
     max-height: 750px;
 }
 
+.video_small {
+    width: 75%;
+    aspect-ration: 16 / 9;
+    height: 45vw;
+    max-height: 600px;
+}
+
+
 iframe#bret_victor_video{
   margin: 5px 0px;
 }
@@ -532,6 +541,10 @@ iframe.podast {
 
 }
 
+#free_download_button {
+  border: 3px solid #777;
+}
+
 #listen_on_amazon_music {
   margin-top: 15px;
 }
@@ -565,19 +578,45 @@ iframe.podast {
 
 
 @media (max-width: 385px) {
+    body {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
     div.site-container {
         width: 375 important;
     }
+
+    .video_small {
+      width: 100%;
+    }
+
 }
 
 @media (max-width: 435px) {
+    body {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
     div.site-container {
         width: 435px important;
+    }
+    .video_small {
+      width: 100%;
     }
 }
 
 
 @media (max-width: 550px) {
+    body {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
     div.site-container {
         width: 450px; important;
     }
@@ -587,10 +626,20 @@ iframe.podast {
     h2 {
       font-size: 25px;
     }
+
+    .video_small {
+      width: 100%;
+    }
 }
 
 
 @media (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
     div.site-container {
         width: 100% important;
     }
@@ -601,11 +650,18 @@ iframe.podast {
     h2 {
       font-size: 25px;
     }
-
+    .video_small {
+      width: 95%;
+    }
 
 }
 
 @media (max-width: 770px) {
+    body {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
     div.site-container {
         width: 770px important;
     }
@@ -616,15 +672,16 @@ iframe.podast {
     h2 {
       font-size: 25px;
     }
-
-    #content {
-      padding: 0 0px 0 10px;
-      width: 82%;
-      
-    }
 }
 
 @media (max-width: 800px) {
+      
+    body {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
     div.site-container {
         width: 610px important;
     }
@@ -644,6 +701,7 @@ iframe.podast {
         flex-direction: row;
         gap: 1rem;
       }
+      
     }
 
 
@@ -726,8 +784,8 @@ coined the term “<a href="https://en.wikipedia.org/wiki/Military%E2%80%93indus
 
   <div id="download_for_free">
     <h2 class="silver">Download Song:</h2>
-    <a href="https://monster.openpolitics.com/media/mp3/MICIMATT.mp3">
-      <img src="https://monster.openpolitics.com/media/img/free-mp3-download.png"
+    <a href="https://monster.openpolitics.com/media/mp3/MICIMATT.mp3" target="_blank">
+      <img id="free_download_button" src="https://monster.openpolitics.com/media/img/free-mp3-download.png"
         width="250"
         height="59"
         alt="Download free mp3"
@@ -740,7 +798,9 @@ coined the term “<a href="https://en.wikipedia.org/wiki/Military%E2%80%93indus
 
     <span id="spotify_label">Spotify:</span>
     <div id="embed-iframe">
-          <iframe style="border-radius:12px" 
+          <iframe 
+              id="spotify_iframe"
+              style="border-radius:12px" 
               src="https://open.spotify.com/embed/track/0xxZY5C9xxij3D1HkzbnfC?utm_source=generator" 
               width="225" height="85" frameBorder="0" allowfullscreen="" 
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
@@ -768,7 +828,7 @@ coined the term “<a href="https://en.wikipedia.org/wiki/Military%E2%80%93indus
 <span class="yellow">Peace Action Network of Lancaster</span> (sponsored the recording of MICIMATT song)<br />
 
 <a href="https://merchantsofdeath.org/">
-<img id="merchants_of_death" src="https://monster.openpolitics.com/media/img/merchants-of-death-war-crimes-tribunal.png" width="400" height="556" alt="Merchants of Death War Crimes Tribunal">
+<img id="merchants_of_death" src="https://monster.openpolitics.com/media/img/merchants-of-death-war-crimes-tribunal.png" width="300" height="417"  alt="Merchants of Death War Crimes Tribunal">
 </a>
 
 <h3 class="silver">Weapons Manufacturers, Nov 12, 2023.</h3>
@@ -793,9 +853,9 @@ Through testimony of witnesses and documentary evidence — four U.S. weapons ma
       <li>Another related, less descriptive name for the MICIMATT is "<a title="The Foreign Policy Blob Strikes Back: We’re Just Fine, Proclaim Architects of Endless Wars. CATO Institute. by Doug Bandow." href="https://www.cato.org/commentary/foreign-policy-blob-strikes-back-were-just-fine-proclaim-architects-endless-wars">the blob</a>." (Ben Rhodes)</li>
   </ul>
 
-  <div style="margin:25px 45px">
+  <div style="margin:15px 45px 5px 45px">
 
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/iWbEUKS4jTE" title="Anatomy of the Blob complete" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+      <iframe id="blob_iframe" class="video_small" src="https://www.youtube.com/embed/iWbEUKS4jTE" title="Anatomy of the Blob complete" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
       </iframe>
       <p>Presentation by Haig Hovaness, <a title="Presentation about the MICIMAT (also known as the 'blob') for the Green Party, 2022." target="_blank" href="https://youtu.be/iWbEUKS4jTE">1hr 16 min Video</a> | 
         <a title="PDF containing the slides for Haig Hovaness's presentation for the Green Party" target="_blank" href="https://gpus.org/other/ANM-2022/The-Anatomy-of-the-Blob.pdf">Slides</a></p>
